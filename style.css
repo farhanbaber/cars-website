@@ -1,0 +1,431 @@
+*{
+    margin : 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* BODY IMG */
+.body-section{
+    background-color: black;
+}
+
+/* HEADER SECTION */
+.header{
+    width: 100%;
+}
+.nav-link{
+    color: white!important;
+    border-radius: 10px;
+}
+.nav-link:active{
+    color: rgb(219, 12, 12);
+}
+
+.nav-link:active,.nav-link:hover{
+background-color: rgb(219, 12, 12)!important;
+transition: 0.5s ease-in-out;
+border-radius: 10px;
+color: white!important;
+}
+@media(max-width:668px){
+    .nav-link{
+        text-align: center;
+    }
+}
+#logo{
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+}
+
+a.active,a:hover{
+    background: rgb(219, 12, 12);
+    transition: 0.5s;
+}
+#Nav-border{
+    border-bottom: 4px solid rgb(219, 12, 12);
+}
+/* Hero-section */
+.hero-sec{
+    
+   width: 100%;
+   height: 80vh;
+   background-image: url(images/hero-sec-img.webp);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text{
+    width: 90%;
+    float: left;
+}
+@media(max-width:668){
+    .text{
+        display: flex;
+        font-size: small;
+    }
+}
+.text h4{
+    color: white; 
+}
+.text h1{
+    font-weight: bold;
+    width: 300px;
+    color: white;
+}
+span{
+    font-weight: bold;
+    color: rgb(219, 12, 12);
+
+}
+
+.text p{
+    color: white;
+}
+@media(max-width:668){
+    .text p{
+        font-size: 15px;
+    }
+}
+.text button{
+    border: none;
+    padding: 0.7em 2em;
+    color: white;
+    background-color: rgb(219, 12, 12);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+
+}
+.text button:hover{
+    filter: brightness(50%);
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* cars section */
+.text-para{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   margin-top:2rem;
+}
+.text-para h1{
+    color: white;
+    font-weight: bold;
+}
+.text-para-two{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.text-para-two h2{
+color: white;
+font-weight: bold;
+}
+.card-sec{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-one{
+    width: 400px;
+    overflow: hidden;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.card-one img{
+    border-radius: 20px;
+border-bottom: 2px solid rgb(219, 12, 12);
+transition: 0.5s ease-in-out;
+overflow: hidden;
+}
+.card-one img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(40%);
+    transition: 1s all;
+
+}
+.card-one{
+    height: 200px;
+    width: 400px;
+    font-size: 40px;
+    display: flex;
+   overflow: hidden;
+    position: relative;
+}
+#img-box-one:after{
+content: "X-Turbo";
+position: absolute;
+-webkit-text-stroke:  2px; 
+ left: 10px;
+ bottom: 10px;
+ font-size: 30px;
+ font-weight: bold;
+padding: 5px 20px;
+color: black;
+text-shadow: 4px 4px 10px rgb(219, 12, 12);
+
+
+}
+#img-box-two:after{
+    content: "X-Ferrari";
+    position: absolute;
+    -webkit-text-stroke:  2px; 
+     left: 10px;
+     bottom: 10px;
+     font-size: 30px;
+     font-weight: bold;
+    padding: 5px 20px;
+    color: black;
+    border-radius: 80px;
+    width: 200px;
+    height: 50px;
+    text-shadow: 4px 4px 10px rgb(219, 12, 12);
+    }
+    #img-box-three:after{
+        content: "X-Civic";
+        position: absolute;
+        -webkit-text-stroke:  2px; 
+         left: 10px;
+         bottom: 10px;
+         font-size: 30px;
+         font-weight: bold;
+        padding: 5px 20px;
+        color: black;
+        text-shadow: 4px 4px 10px rgb(219, 12, 12);
+
+        }
+        #img-box-four:after{
+            content: "X-Mazda";
+            position: absolute;
+            -webkit-text-stroke:  2px; 
+             left: 10px;
+             bottom: 10px;
+             font-size: 30px;
+             font-weight: bold;
+            padding: 5px 20px;
+            color: black;
+            text-shadow: 4px 4px 10px rgb(219, 12, 12);
+
+            }
+            #img-box-five:after{
+                content: "X-Grandi";
+                position: absolute;
+                -webkit-text-stroke:  2px; 
+                 left: 10px;
+                 bottom: 10px;
+                 font-size: 30px;
+                 font-weight: bold;
+                padding: 5px 20px;
+                color: black;
+                text-shadow: 4px 4px 10px rgb(219, 12, 12);
+
+                }
+                #img-box-six:after{
+                    content: "X-Etron";
+                    position: absolute;
+                    -webkit-text-stroke:  2px; 
+                     left: 10px;
+                     bottom: 10px;
+                     font-size: 30px;
+                     font-weight: bold;
+                    padding: 5px 20px;
+                    color: black;
+                    text-shadow: 4px 4px 10px rgb(219, 12, 12);
+
+                    }
+ /* Parts section */
+ .text-of-container{
+    width: 100%;
+    height: 14vh;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+ }
+ .text-of-container h1{
+    color: white;
+    font-weight: bold;
+
+ }
+ .text-of-container-two{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+ }
+ .text-of-container-two p{
+    color: rgb(219, 12, 12);
+    font-weight: bold;
+ }
+ .img-container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ #card-img{
+    width: 336px;
+    height: 150px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(56, 55, 55);
+ }
+ 
+ .card-body{
+    background-color: rgb(56, 55, 55);
+ }
+ #cards-input{
+    color: beige;
+ }
+ .card-text{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+
+ }
+ #btn-btn{
+    background-color: rgb(219, 12, 12);
+    border: none;
+ }
+ #card-border{
+    border: none;
+ }
+ /* About section */
+ .About-container-text{
+    width: 100%;
+    height: 9vh;
+margin-top: 5rem;
+display: flex;
+justify-content: center;
+color: white;
+ }
+ 
+ #card-mb3{
+    display: flex;
+    margin: auto;
+    background-color: black;
+    border: none;
+    margin-top: 4rem;
+ }
+ #card-inner{
+    border-radius: 5px;
+    border-bottom: 2px solid red;
+ }
+ #card-head{
+    color: black;
+    font-weight: bold;
+ }
+ #card-write{
+color: white;
+ }
+#child-but{
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(219, 12, 12);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+}
+#child-but:hover{
+    filter: brightness(50%);
+    transition: 0.5s ease-in-out;
+
+}
+/* Contact section */
+.contact-section{
+width: 100%;
+height: 10vh;
+margin-top: 5rem;
+display: flex;
+justify-content: center;
+
+}
+.contact-section h1{
+   color: white;
+   font-weight: bold;
+}
+.contact-page{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 3rem;
+}
+.form{
+    text-align: center;
+    line-height: 40px;
+    margin-top: 40px;
+width: 300px;
+margin: 0 auto;
+padding: 20px;
+border-radius: 5px;
+border: none;
+
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+
+}
+input[type="text"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: none;
+}
+textarea{
+    height: 100px;
+    border: none;
+
+}
+#last-swith{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.4em 3em;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(219, 12, 12);
+    transition: 0.5s ease-in-out;
+border: none;
+    margin-top: 2rem
+}
+#last-swith:hover{
+    filter: brightness(50%);
+    transition: 0.5s ease-in-out;
+}
+
+ 
